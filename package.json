@@ -1,0 +1,19 @@
+{
+  "name": "telegraf-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon node index.js",
+    "hears": "nodemon node hears.js",
+    "event": "nodemon node on-method.js",
+    "middleware": "nodemon node middleware.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.12.2"
+  }
+}
